@@ -1,0 +1,118 @@
+.table_page__container {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.table_title {
+  color: #0be65f;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: center;
+}
+.container_table {
+  margin-top: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table_second__title {
+  color: #0be65f;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sort_button {
+  text-decoration: none;
+  color: #0be65f;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.3;
+  padding: 5px;
+  border: 2px solid #0be65f;
+  border-radius: 5px;
+}
+.sort_button:not(:last-child) {
+  margin-right: 50px;
+}
+.sort_button:hover {
+  background: #f5b236;
+  color: #000000;
+  border-color: #000000;
+}
+table {
+  overflow: hidden;
+  border: 1px solid #0be65f;
+  background: #fefefe;
+  margin: 5% 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 50px;
+}
+
+th,
+td {
+  padding: 18px 28px 18px;
+  text-align: center;
+}
+
+th {
+  padding-top: 22px;
+  background: #0be65f;
+}
+
+td {
+  border-top: 1px solid #0be65f;
+  border-right: 1px solid #0be65f;
+}
+.table_user__container {
+  display: flex;
+}
+.table_container {
+  display: flex;
+  position: relative;
+}
+
+.table_button__conteiner {
+  width: 100px;
+  margin-top: 159px;
+}
+.button__conteiner {
+  border-bottom: 1px solid #0be65f;
+  border-right: 1px solid #0be65f;
+  border-top: 1px solid #0be65f;
+  padding-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.table_button {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+  width: 80px;
+  color: #0be65f;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.3;
+  border: 1px solid #0be65f;
+  border-radius: 5px;
+  background: transparent;
+}
+.table_button:not(:last-child) {
+  margin-bottom: 8px;
+}
+.table_button:hover {
+  background: #f5b236;
+  color: #000000;
+  border-color: #000000;
+}

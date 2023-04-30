@@ -1,0 +1,22 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #e8eaebb2;
+  z-index: 2;
+}
+.modal_container {
+  position: absolute;
+  top: 500px;
+  right: 50%;
+  width: 200px;
+  border: 2px solid #0be65f;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 3;
+  background: #ffffff;
+}
